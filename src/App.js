@@ -4,12 +4,8 @@ import QRCodeGenerator from "./components/qr-code-generator";
 function App() {
   return (
     <div className="App">
+      {<QRCodeGenerator/> }
 
-
-       {/* QR code generator */}
-      {/* <QRCodeGenerator/> */}
-
-<ScrollToSection/>
     </div>
   );
 }
